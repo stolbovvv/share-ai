@@ -1,0 +1,10 @@
+/* Component: Input */
+
+.input {
+	padding: 1em 2em;
+	border: 1px solid var(--clr-white);
+	border-radius: 999em;
+	background-color: transparent;
+	color: inherit;
+	resize: none;
+}

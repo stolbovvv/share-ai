@@ -1,0 +1,17 @@
+/* Layout: Section */
+
+.section {
+	padding-block: 7.5rem;
+}
+
+@media screen and (width < 100em) {
+	.section {
+		padding-block: 5rem;
+	}
+}
+
+@media screen and (width < 64em) {
+	.section {
+		padding-block: 2.5rem;
+	}
+}

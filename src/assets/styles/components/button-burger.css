@@ -1,0 +1,49 @@
+/* Component: Button burger */
+
+.button-burger {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0;
+	width: 1.875rem;
+	height: 1.875rem;
+	border: none;
+	background: none;
+	color: currentColor;
+	cursor: pointer;
+}
+
+.button-burger.is-open {
+	justify-content: center;
+}
+
+.button-burger > span {
+	height: 0.125rem;
+	background-color: currentColor;
+	transition: all 0.2s ease 0s;
+	pointer-events: none;
+}
+
+.button-burger > span:nth-child(1) {
+	width: 100%;
+}
+
+.button-burger > span:nth-child(2) {
+	width: 60%;
+}
+
+.button-burger > span:nth-child(3) {
+	width: 100%;
+}
+
+.button-burger.is-open > span:nth-child(1) {
+	transform: translateY(100%) rotate(45deg);
+}
+
+.button-burger.is-open > span:nth-child(2) {
+	width: 0%;
+}
+
+.button-burger.is-open > span:nth-child(3) {
+	transform: translateY(-100%) rotate(-45deg);
+}

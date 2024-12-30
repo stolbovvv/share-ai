@@ -1,0 +1,79 @@
+/* Global styles */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	scrollbar-gutter: stable;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: var(--clr-white);
+	color: var(--clr-dark);
+	font-family: "Raleway", sans-serif;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-rendering: optimizeSpeed;
+}
+
+@media screen and (width < 48em) {
+	body {
+		font-size: 0.875rem;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin-block-end: 0;
+}
+
+:where(ol:not([class]) > * + *),
+:where(ul:not([class]) > * + *) {
+	margin-block-start: 0.67em;
+}
+
+img,
+picture {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+	}
+}

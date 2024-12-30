@@ -1,0 +1,9 @@
+/* Custom properties */
+
+:root {
+	--clr-dark: #252525;
+	--clr-white: #ffffff;
+	--clr-orange: #f59124;
+	--clr-blue-dark: #193441;
+	--clr-blue-light: #166184;
+}

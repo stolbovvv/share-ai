@@ -1,0 +1,29 @@
+/* Component: Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 0.625rem;
+	color: currentColor;
+	text-decoration: none;
+}
+
+.logo__icon {
+	flex: 0 0 auto;
+	width: 8.75rem;
+}
+
+.logo__text {
+	flex: 1 1 auto;
+	padding-left: 0.625rem;
+	max-width: 15rem;
+	border-left: 1px solid currentColor;
+	opacity: 0.5;
+	color: currentColor;
+}
+
+@media screen and (width < 48em) {
+	.logo__text {
+		display: none;
+	}
+}

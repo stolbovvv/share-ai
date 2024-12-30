@@ -1,0 +1,23 @@
+/* Component: Functions card */
+
+.functions-card {
+	padding: 1.875rem;
+	border: 1px dashed currentColor;
+	border-radius: 3.125rem;
+	text-align: center;
+}
+
+.functions-card__heading {
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+.functions-card > p {
+	opacity: 0.7;
+}
+
+@media screen and (width < 48em) {
+	.functions-card__heading {
+		font-size: 1rem;
+	}
+}

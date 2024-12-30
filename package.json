@@ -30,7 +30,7 @@
 		"*.{js,mjs,ts}": [
 			"eslint --fix"
 		],
-		"*.css": [
+		"*.{css,sass,scss}": [
 			"stylelint --fix"
 		]
 	},

@@ -1,0 +1,9 @@
+/* Component: Textarea */
+
+.textarea {
+	padding: 1em 2em;
+	border: 1px solid var(--clr-white);
+	border-radius: 1.5rem;
+	background-color: transparent;
+	color: inherit;
+}

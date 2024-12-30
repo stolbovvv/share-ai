@@ -1,9 +1,40 @@
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
+/* Vendors */
 
-body {
-	margin: 0;
-}
+/* General */
+
+@import url("./general/font-face.css");
+@import url("./general/root.css");
+@import url("./general/globals.css");
+
+/* Components */
+
+@import url("./components/heading.css");
+@import url("./components/button.css");
+@import url("./components/button-burger.css");
+@import url("./components/contact-link.css");
+@import url("./components/input.css");
+@import url("./components/textarea.css");
+@import url("./components/logo.css");
+@import url("./components/modal.css");
+@import url("./components/team-card.css");
+@import url("./components/scaling-card.css");
+@import url("./components/functions-card.css");
+
+/* Layouts */
+
+@import url("./layouts/header.css");
+@import url("./layouts/navbar.css");
+@import url("./layouts/footer.css");
+@import url("./layouts/section.css");
+@import url("./layouts/hero-section.css");
+@import url("./layouts/services-section.css");
+@import url("./layouts/platform-section.css");
+@import url("./layouts/scaling-section.css");
+@import url("./layouts/functions-section.css");
+@import url("./layouts/team-section.css");
+
+/* Utilities */
+
+@import url("./utilities/wrapper.css");
+@import url("./utilities/container.css");
+@import url("./utilities/colors.css");

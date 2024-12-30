@@ -1,0 +1,34 @@
+/* Component: Team card */
+
+.team-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.team-card__image {
+	aspect-ratio: 515/625;
+	border-radius: 3.125rem;
+}
+
+.team-card__job-title {
+	margin-top: 0.75em;
+	opacity: 0.5;
+	font-size: 1.375rem;
+	line-height: 1.2;
+}
+
+.team-card__name {
+	margin-top: 0.375em;
+	font-size: 1.75rem;
+	line-height: 1.2;
+}
+
+@media screen and (width < 48em) {
+	.team-card__job-title {
+		font-size: 1rem;
+	}
+
+	.team-card__name {
+		font-size: 1.25rem;
+	}
+}

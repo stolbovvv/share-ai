@@ -1,0 +1,34 @@
+/* Component: Heading */
+
+.heading {
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.heading-xl {
+	font-size: 5rem;
+}
+
+.heading-lg {
+	font-size: 3.75rem;
+}
+
+@media screen and (width < 100em) {
+	.heading-xl {
+		font-size: 4rem;
+	}
+
+	.heading-lg {
+		font-size: 3rem;
+	}
+}
+
+@media screen and (width < 64em) {
+	.heading-xl {
+		font-size: 1.75rem;
+	}
+
+	.heading-lg {
+		font-size: 1.5rem;
+	}
+}
