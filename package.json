@@ -9,6 +9,10 @@
 		"clean": "npx gulp clean",
 		"build": "npx gulp build --production",
 		"preview": "npx gulp preview --production",
+		"stylelint": "npx stylelint src/**/*.{css,sass,scss}",
+		"eslint": "npx eslint src/**/*.{js,mjs,ts}",
+		"lint": "npm run eslint && npm run stylelint",
+		"format": "prettier --write .",
 		"prepare": "husky"
 	},
 	"browserslist": [
@@ -23,7 +27,7 @@
 		"url": "https://github.com/stolbovvv"
 	},
 	"lint-staged": {
-		"*.{js,mjs}": [
+		"*.{js,mjs,ts}": [
 			"eslint --fix"
 		],
 		"*.css": [
