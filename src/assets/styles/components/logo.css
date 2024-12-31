@@ -11,6 +11,9 @@
 .logo__icon {
 	flex: 0 0 auto;
 	width: 8.75rem;
+	height: 5rem;
+	object-fit: contain;
+	object-position: center;
 }
 
 .logo__text {
